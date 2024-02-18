@@ -17,7 +17,7 @@ class HelloWorld(Resource):
         return jsonify({"MyFirstMessage": "Hello Kumaran"})
 
     def post(self):
-        return jsonify({"status" : "Your new message is poaste"})
+        return jsonify({"status" : "Your new message is posted"})
 
 
 #Register resource with corresponding
